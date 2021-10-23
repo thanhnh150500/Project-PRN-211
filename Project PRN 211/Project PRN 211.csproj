@@ -132,7 +132,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\sign\css\main.css" />
+    <Content Include="Content\signup\css\main.css" />
+    <Content Include="Content\signup\js\global.js" />
+    <Content Include="Content\signup\vendor\datepicker\daterangepicker.css" />
+    <Content Include="Content\signup\vendor\datepicker\daterangepicker.js" />
+    <Content Include="Content\signup\vendor\datepicker\moment.min.js" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\css\font-awesome.css" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\css\font-awesome.min.css" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\HELP-US-OUT.txt" />
+    <Content Include="Content\signup\vendor\jquery\jquery.js" />
+    <Content Include="Content\signup\vendor\jquery\jquery.min.js" />
+    <Content Include="Content\signup\vendor\mdi-font\css\material-design-iconic-font.css" />
+    <Content Include="Content\signup\vendor\mdi-font\css\material-design-iconic-font.min.css" />
+    <Content Include="Content\signup\vendor\mdi-font\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Content\signup\vendor\select2\select2.min.css" />
+    <Content Include="Content\signup\vendor\select2\select2.min.js" />
+    <Content Include="Content\sign\css\main.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\sign\css\util.css" />
     <Content Include="Content\sign\fonts\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Content\sign\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
@@ -326,6 +344,15 @@
     <Content Include="Content\technology\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\technology\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\technology\fonts\FontAwesome.otf" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\signup\vendor\font-awesome-4.7\fonts\FontAwesome.otf" />
+    <Content Include="Content\signup\vendor\mdi-font\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="Content\signup\vendor\mdi-font\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="Content\signup\vendor\mdi-font\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="Content\signup\vendor\mdi-font\fonts\Material-Design-Iconic-Font.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Login.cshtml" />
     <Content Include="Views\Account\SignIn.cshtml" />
@@ -335,6 +362,8 @@
     <Content Include="Views\Review\Review.cshtml" />
     <Content Include="Views\NewsPC\PCnews.cshtml" />
     <Content Include="Views\NewsMoblie\MobileNews.cshtml" />
+    <Content Include="Views\Shared\_SignUp.cshtml" />
+    <Content Include="Views\Account\SignUp.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
