@@ -13,5 +13,10 @@ namespace Project_PRN_211.Controllers
         {
             return View();
         }
+
+        public ActionResult DetailNewsMoblie()
+        {
+            return View();
+        }
     }
 }

@@ -364,6 +364,8 @@
     <Content Include="Views\NewsMoblie\MobileNews.cshtml" />
     <Content Include="Views\Shared\_SignUp.cshtml" />
     <Content Include="Views\Account\SignUp.cshtml" />
+    <Content Include="Views\NewsMoblie\DetailNewsMoblie.cshtml" />
+    <Content Include="Views\NewsPC\DetailNewPC.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
