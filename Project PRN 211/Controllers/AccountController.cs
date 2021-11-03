@@ -8,6 +8,7 @@ namespace Project_PRN_211.Controllers
 {
     public class AccountController : Controller
     {
+
         // GET: Account
         public ActionResult SignIn()
         {
